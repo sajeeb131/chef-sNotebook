@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.landing-top{
+    
+}
+.landing-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    .landing-search{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        top: 20px;
+    
+        .icon{
+            width: 37.5px;
+            height: 37.5px;
+            top: 6.25px;
+            left: 6.25px;
+            gap: 0px;
+            border: 3.13px 0px 0px 0px;
+            opacity: 0px;
+            color: white;
+            position: relative;
+            left: -60px;
+            top: -1px;
+    
+        }
+        input{
+            width: 949px;
+            height: 58px;
+            top: 125px;
+            left: 485px;
+            padding: 4px 28px 4px 36px;
+            gap: 0px;
+            border-radius: 40px ;
+            border: 1px solid white;
+            opacity: 0px;
+            background-color: #00000033;
+        }
+        input::placeholder{
+            font-size: 20px;
+            color: white;
+        }
+        
+    }
+    
+    .recipe-button-container{
+        position: relative;
+        top: -200px;
+        right: 40%;
+        .span-container{
+            position: absolute;
+            width: 270px;
+            text-align: center;
+            top: -70px;
+            left: 70px;
+
+        }
+        .curve-line{
+            position: relative;
+            left: 200px;
+            margin: 0;
+        }
+        span{
+            width: 88px;
+
+            font-family: Montserrat;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 22px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+        button{
+            padding: 14px 17px;
+            width: 228px;
+            height: 50px;
+            background-color: #78B5F5;
+            font-size: 30px;
+            font-weight: 500;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            align-items: center;
+        }
+    }
+}
+.landing-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+
+    padding: 20px 120px 20px 120px;
+}
+
