@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { CiSearch } from "react-icons/ci";
 import Image from 'next/image';
@@ -30,7 +29,7 @@ const page = () => {
       </div>
 
       <landing className="landing-mid">
-
+        
         <div className="craving-container">
           <h1>WHAT WE ARE CRAVING</h1>
           <div className="items-grid">

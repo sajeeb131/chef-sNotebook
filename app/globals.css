@@ -25,3 +25,23 @@ body {
     font-optical-sizing: auto;
   
 }
+.heading-1{
+      width: Hug (206px)px;
+    height: Hug (59px)px;
+    top: 644px;
+    left: 186px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    background: #78B5F5;
+    width: fit-content;
+    padding: 10px 20px;
+    font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 41px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-bottom: 40px;
+}

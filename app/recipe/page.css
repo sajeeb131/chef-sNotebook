@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.recipe-info-container{
+    padding: 100px 140px;
+}
+.numbers{
+    
+    display: flex;
+    flex-direction: row;
+    .number{
+        text-align: center;
+        padding: 10px 80px 0px 40px;
+        border-right: 1px solid black;
+        h1{
+            font-family: Montserrat;
+            font-size: 72px;
+            font-weight: 500;
+            line-height: 41px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            margin-bottom: 20px;
+        }
+        
+    }
+    :nth-child(3){
+        border-right: none;
+    }
+    :nth-child(1){
+        padding-left: 0px;
+    }
+    
+}
+.recipe-top-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.recipe-top-right{
+    img{
+        width: 743px;
+        height: 524px;
+        top: 209px;
+        left: 991px;
+        gap: 0px;
+        opacity: 0px;
+        object-fit: cover;
+
+    }
+}
+.recipe-top-main{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+
+    h1{
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 41px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-bottom: 40px;
+    }
+}
+.recipe-circle-info{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    .circle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: -5px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #C65C1499;
+        h3{
+            font-family: Montserrat;
+            font-size: 27px;
+            font-weight: 600;
+            margin-bottom: 0px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+        span{
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 0px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+    }
+}
+.recipe-info-list{
+    li{
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 53px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+}
+.ingredients-info{
+    margin-top: 80px;
+    .recipe-info-list{
+        margin-left: 50px;
+    }
+    li{
+        list-style-type: circle;
+    }
+}
