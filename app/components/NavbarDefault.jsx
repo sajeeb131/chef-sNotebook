@@ -8,6 +8,8 @@ const NavbarDefault = () => {
             <li> <Link href="/home">Home</Link> </li>
             <li> <Link href="/Login">Login</Link> </li>
             <li> <Link href="/Profile">Profile</Link> </li>
+            <li> <Link href="/recipe">Recipe info</Link> </li>
+            
         </ul>
     </nav>
   )
