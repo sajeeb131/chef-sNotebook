@@ -5,6 +5,7 @@ import Image from 'next/image';
 import landingImage from '@/public/assets/l1.png'
 import './page.css'
 import curveLine from '@/public/assets/curve-line.png'
+import foodImage from '@/public/assets/pasta.jpeg'
 
 const page = () => {
   return (
@@ -32,13 +33,51 @@ const page = () => {
       <landing className="landing-mid">
 
         <div className="craving-container">
-          <h1>WHAT WE ARE CRAVING</h1>
+          <h1 className='heading-1'>WHAT WE ARE CRAVING</h1>
           <div className="items-grid">
             <div className="item">
-              <Image alt=''></Image>
+              <Image  src={foodImage} alt=''></Image>
+              <h2>Chicken Pasta</h2>
+            </div>
+            <div className="item">
+              <Image  src={foodImage} alt=''></Image>
+              <h2>Chicken Pasta</h2>
+            </div>
+            <div className="item">
+              <Image  src={foodImage} alt=''></Image>
+              <h2>Chicken Pasta</h2>
+            </div>
+            <div className="item">
+              <Image  src={foodImage} alt=''></Image>
               <h2>Chicken Pasta</h2>
             </div>
             
+            
+          </div>
+        </div>
+        <div className='more-container'>
+          <h1 className='heading-1'>MORE RECIPE</h1>
+          <div className='items'>
+            <div className="item">
+                <Image  src={foodImage} alt=''></Image>
+                <h2>Chicken Pasta</h2>
+            </div>
+            <div className="item">
+                <Image  src={foodImage} alt=''></Image>
+                <h2>Chicken Pasta</h2>
+            </div>
+            <div className="item">
+                <Image  src={foodImage} alt=''></Image>
+                <h2>Chicken Pasta</h2>
+            </div>
+            <div className="item">
+                <Image  src={foodImage} alt=''></Image>
+                <h2>Chicken Pasta</h2>
+            </div>
+            <div className="item">
+                <Image  src={foodImage} alt=''></Image>
+                <h2>Chicken Pasta</h2>
+            </div>
           </div>
         </div>
       </landing>

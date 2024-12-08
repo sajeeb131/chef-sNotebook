@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.landing-top{
-    
+body{
+    background-color: azure;
+    overflow-x: hidden;
 }
 .landing-top{
     display: flex;
@@ -99,5 +100,65 @@
     align-items: first baseline;
 
     padding: 20px 120px 20px 120px;
+    .craving-container{
+        h1{
+            color: #171717;
+            background: #78B5F5;
+            width: fit-content;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            
+        }
+    }
 }
 
+
+.items-grid{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    .item{
+        width: 361px;
+        height: 345px;
+
+   text-align: center;
+        border-radius: 16px 16px 0px 0px;
+        border: 1px solid black;
+        img{
+            width: 361px;
+            height: 299px;
+            object-fit: cover;
+            border-radius: 16px 16px 0px 0px;
+        }
+        h2{
+            color:#171717;
+            font-size: 24px;
+            font-weight: 500;
+        }
+       
+
+    }
+}
+.more-container{
+    margin: 40px 0px;
+    h1{
+        background: #78B5F5;
+        color: #171717;
+        width: fit-content;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .items{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+       
+        .item{
+            width: 280px ;
+            height: 290px;
+        }
+    }
+}
