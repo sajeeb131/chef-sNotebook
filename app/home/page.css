@@ -108,7 +108,7 @@ body{
             padding: 10px 20px;
             border-radius: 10px;
             margin-bottom: 40px;
-            
+            font-weight: 600;
         }
     }
 }
@@ -125,8 +125,8 @@ body{
         height: 345px;
 
    text-align: center;
-        border-radius: 16px 16px 0px 0px;
-        border: 1px solid black;
+        border-radius: 16px 16px 16px 16px;
+        border: 1px solid #b8b8b8;
         img{
             width: 361px;
             height: 299px;
@@ -136,7 +136,7 @@ body{
         h2{
             color:#171717;
             font-size: 24px;
-            font-weight: 500;
+            font-weight: 600;
         }
        
 
@@ -150,15 +150,23 @@ body{
         width: fit-content;
         padding: 10px 20px;
         border-radius: 10px;
+        font-weight: 600;
     }
     .items{
         display: flex;
         flex-direction: row;
+        
         gap: 40px;
-       
-        .item{
-            width: 280px ;
-            height: 290px;
-        }
     }
+    .item{
+        width: 280px;
+        height: 290px;
+        
+    }
+    .more-container-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
