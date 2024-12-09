@@ -7,7 +7,9 @@ const NavbarDefault = () => {
         <ul>
             <li> <Link href="/home">Home</Link> </li>
             <li> <Link href="/Login">Login</Link> </li>
-            <li> <Link href="/Profile">Profile</Link> </li>
+            <li> <Link href="/signup">Signup</Link> </li>
+
+            <li> <Link href="/profile">Profile</Link> </li>
             <li> <Link href="/recipe">Recipe info</Link> </li>
             
         </ul>
