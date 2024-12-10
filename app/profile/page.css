@@ -1,0 +1,46 @@
+.profile-container{
+    padding: 100px;
+    .p-image{
+        width: 300px;
+        height: 300px;
+        top: 258px;
+        left: 186px;
+        gap: 0px;
+        border-radius: 50%;
+        opacity: 0px;
+        object-fit: cover;
+
+    }
+    .p-info{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .p-box{
+        width: 361px;
+        height: 175px;
+        top: 795px;
+        left: 186px;
+        padding: 46px 108px 21px 107px;
+        border: 1px ;
+
+        border: 1px solid #ABABAB;
+        h1{            
+            font-size: 80px;
+            font-weight: 400;
+            line-height: 41px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+        h3{
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 41px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+    }
+}

@@ -155,7 +155,6 @@ body{
         display: flex;
         flex-direction: row;
         gap: 40px;
-       
         .item{
             width: 280px ;
             height: 290px;

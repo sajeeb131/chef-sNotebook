@@ -51,3 +51,64 @@ nav ul{
     }
     
 }
+.item-container{
+    margin-top: 40px;
+    .items-grid{
+        gap: 40px;
+        .item{
+            width: 361px;
+            height: 345px;
+            text-align: center;
+            border-radius: 16px 16px 0px 0px;
+            border: 1px solid black;
+            img{
+                width: 361px;
+                height: 299px;
+                object-fit: cover;
+                border-radius: 16px 16px 0px 0px;
+            }
+            h2{
+                color:#171717;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.footer-container{
+    width: 1920px;
+    height: 821px;
+    background:  #ECECEC;
+    .footer-image{
+        
+    }
+    .footer-left{
+        width: 981px;
+    height: 468px;
+    top: 175px;
+    left: 185px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39.01px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+        }
+        .footer-right{
+            font-family: Montserrat;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 39.01px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+
+}

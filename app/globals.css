@@ -26,22 +26,82 @@ body {
   
 }
 .heading-1{
-      width: Hug (206px)px;
-    height: Hug (59px)px;
-    top: 644px;
-    left: 186px;
-    padding: 10px 0px 0px 0px;
-    gap: 10px;
-    opacity: 0px;
-    background: #78B5F5;
-    width: fit-content;
-    padding: 10px 20px;
-    font-family: Montserrat;
         font-size: 48px;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 41px;
         text-align: left;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         margin-bottom: 40px;
+}
+
+.edit-button{
+  width: Hug (231px)px;
+  height: Hug (83px)px;
+  padding: 21px 26px 21px 26px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #78B5F5;
+  color: black;
+}
+.heading-2{
+  width: 168px;
+  height: 41px;
+  top: 325px;
+  left: 587px;
+  gap: 0px;
+  opacity: 0px;
+  
+font-size: 56px;
+font-weight: 500;
+line-height: 41px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.heading-4{
+ 
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+.body-small{
+ 
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+.body-para{
+
+  margin: 20px 0px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+  
+}
+
+.list-body{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 51px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
 }
