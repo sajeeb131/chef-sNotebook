@@ -144,7 +144,7 @@ body{
 }
 .more-container{
     margin: 40px 0px;
-    h1{
+    .heading-1{
         background: #78B5F5;
         color: #171717;
         width: fit-content;
@@ -155,8 +155,8 @@ body{
     .items{
         display: flex;
         flex-direction: row;
-        
-        gap: 40px;
+        gap: 50px;
+        margin-left: 4%;
     }
     .item{
         width: 280px;
@@ -168,5 +168,20 @@ body{
         justify-content: center;
         align-items: center;
     }
+
+    .more-container-title{
+        color:#171717;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 3%;
+        margin-left: -60px;
+    }
+    
+}
+.containter-collection{
+   
+}
+.container-collection-images{
     
 }
