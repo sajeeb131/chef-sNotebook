@@ -9,7 +9,7 @@ const page = () => {
             <h1>LOG IN</h1>
             <input type="email" placeholder='Email' />
             <input type="password" placeholder='Password' />
-            <Button className="login-button">LOGIN</Button>
+            <button className="login-button">LOGIN</button>
             <h5>Sign up</h5>
         </section>
         <section className="login-right">
